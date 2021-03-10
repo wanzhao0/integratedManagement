@@ -1,0 +1,47 @@
+.main-wrap-title {
+    display      : inline-block;
+    padding      : 0 25px 5px 5px;
+    border-bottom: 1.5px solid #85b6d0;
+}
+
+.main-wrap>>>.el-divider--horizontal {
+    margin          : 0px 0 20px 0;
+    height          : 0.5px;
+    background-color: #0967fd;
+}
+
+/* 表格 */
+.base-table {
+    width          : 100%;
+    height         : 100%;
+    border         : 1px solid #184EA7;
+    border-collapse: collapse;
+    table-layout   : fixed;
+    word-break     : break-all;
+    color          : #333;
+    color          : #fff;
+    font-size      : 16px;
+}
+
+.base-table tr {
+    border     : 1px solid #184EA7;
+    font-family: "PingFangSC-Regular", "PingFang SC";
+    font-weight: 400;
+    font-style : normal;
+    font-size  : 13px;
+}
+
+.base-table tr td {
+    border : 1px solid #184EA7;
+    padding: 10px 12px;
+}
+
+.base-table-title {
+    width           : 10%;
+    background-color: transparent;
+    text-align      : right;
+}
+
+.base-table-content-info {
+    width: 20%;
+}
